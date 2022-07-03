@@ -24,7 +24,7 @@ After setting up the environment, activate to run the training and testing code.
 
 ### Training
 
-**Regression**:
+**Regression:**
 
 ```bash
 python -u /home1/bos/repo/DrugCell/code/train_drugcell.py \
@@ -47,7 +47,7 @@ python -u /home1/bos/repo/DrugCell/code/train_drugcell.py \
                             
 ```
 
-**Classification:**
+Classification:
 
 ```python -u /home1/bos/repbasho/DrugCell/code/train_drugcell_binary.py \
                             -onto /scratch1/bos/bos/DepMap-data/drugcell-GDC-alive-patient/drugcell_ont.txt \
@@ -69,7 +69,7 @@ python -u /home1/bos/repo/DrugCell/code/train_drugcell.py \
 
 ### Inference
 
-**Regression:**
+Regression:
 
 ```bash
 python -u /home1/bos/repo/DrugCell/code/predict_drugcell.py \
@@ -86,7 +86,7 @@ python -u /home1/bos/repo/DrugCell/code/predict_drugcell.py \
 
 
 
-**Classification:**
+Classification:
 
 ```bash
 python -u /home1/bos/repo/DrugCell/code/predict_drugcell_binary.py \
