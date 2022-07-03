@@ -24,7 +24,7 @@ After setting up the environment, activate to run the training and testing code.
 
 ### Training
 
-**Regression:**
+Regression:
 
 ```bash
 python -u /home1/bos/repo/DrugCell/code/train_drugcell.py \
